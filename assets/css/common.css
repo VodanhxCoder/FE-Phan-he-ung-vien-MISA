@@ -1,0 +1,164 @@
+.display-flex {
+  display: flex;
+}
+.display-block {
+  display: block;
+}
+
+/* justify-content */
+.justify-content-center {
+  justify-content: center;
+}
+
+/* align-items */
+.align-items-center {
+  align-items: center;
+}
+
+/* flex */
+.flex-direction-column {
+  flex-direction: column;
+}
+.flex-direction-row {
+  flex-direction: row;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex1 {
+  flex: 1;
+}
+
+.justify-content-left {
+  justify-content: left;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+
+/* position */
+.pos-relative {
+  position: relative !important;
+}
+
+.pos-absolute {
+  position: absolute !important;
+}
+
+/* margin */
+/* rem vì phụ thuộc res */
+.mx-3 {
+  margin-right: 1rem !important;
+}
+.m-r-12 {
+  margin-right: 12px;
+}
+/* Margin-right 20px */
+.m-r-20 {
+  margin-right: 20px;
+}
+
+.m-r-24 {
+  margin-right: 24px;
+}
+
+/* pointer */
+.pointer {
+  cursor: pointer !important;
+}
+
+/* text */
+.text-bold {
+  font-weight: bold;
+}
+
+/* BackGround */
+/* Không nền */
+.no-bg {
+  background: none !important;
+  background-color: transparent !important;
+}
+
+/* Không nền khi hover */
+.no-hover-bg:hover {
+  background: none !important;
+  background-color: transparent !important;
+}
+
+/* Không box-shadow khi hover */
+.no-box-shadow-hover:hover {
+  box-shadow: none !important;
+}
+
+/* Button */
+
+/* .btn-primary  */
+.btn-primary {
+  background-color: #2680eb !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+}
+/* Button secondary */
+.btn-secondary-2 {
+  background-color: #ffffff;
+  color: #1e2633;
+  border-radius: 4px;
+  height: 32px;
+  padding: 0 12px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-secondary-2:hover .icon-global {
+  background-color: #2563eb;
+}
+.btn-secondary-2:hover {
+  color: #2563eb;
+}
+
+.btn-secondary-1 {
+  width: auto;
+  font-weight: 500;
+  font-size: 14px;
+  height: 36px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-left: 15px;
+  white-space: nowrap;
+  display: inline-flex;
+}
+
+/* State */
+.active {
+  font-weight: bold;
+  background-color: #2680eb !important;
+  color: #ffffff !important;
+}
+
+/* Headings */
+.h-1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.h-2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.h-3 {
+  font-size: 18.72px;
+  font-weight: 700;
+}
+.h-4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.h-5 {
+  font-size: 13.28px;
+  font-weight: 700;
+}
+.h-6 {
+  font-size: 10.72px;
+  font-weight: 700;
+}

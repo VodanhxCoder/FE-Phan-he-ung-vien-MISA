@@ -1,0 +1,343 @@
+/* --------Table-------- */
+
+/* TABLE  */
+/* Vùng table trong trang */
+.main-content-table {
+  flex: 1;
+  min-height: 0;
+  /* margin-top: 16px; */
+  /* padding: 0 24px; */
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Bọc table để scroll ngang */
+.table-wrapper {
+  overflow: auto;
+  width: 100%;
+  flex: 1;
+  border-radius: 6px;
+}
+
+/* Table */
+.candidate-table {
+  min-width: 100%;
+  border-collapse: collapse;
+  background: white;
+  font-size: 14px;
+}
+
+.tr-table-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Header */
+.candidate-table thead th {
+  text-align: left;
+  font-weight: 700;
+  height: 48px;
+  padding: 8px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb !important;
+  white-space: nowrap; /* tránh xuống dòng */
+}
+
+/* Body */
+.candidate-table tbody td {
+  padding: 8px;
+  border-bottom: 1px solid #eaecef;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+/* Checkbox */
+.candidate-table input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+/* Tên + Avatar */
+.cell-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+  border: 1px solid #e0e6ed;
+  border-radius: 8px;
+}
+.table-wrapper::-webkit-scrollbar {
+  height: 10px;
+  width: 8px;
+}
+.table-wrapper::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 999px;
+}
+.table-wrapper::-webkit-scrollbar-track:vertical {
+  margin-top: 48px;
+}
+.table-wrapper::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+.table-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+.candidate-table {
+  width: max-content;
+  border-collapse: collapse;
+  min-width: 1500px;
+  font-size: 14px;
+}
+.candidate-table thead {
+  background: #f5f7fa;
+  color: #111827;
+}
+.candidate-table th,
+.candidate-table td {
+  height: 48px;
+  /* padding: 8px; */
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+  white-space: nowrap;
+  min-width: 150px; /* Base width */
+  box-sizing: border-box;
+}
+
+/* Tạo độ rộng cho các column */
+.candidate-table .col-check {
+  min-width: 50px;
+  width: 50px;
+}
+.candidate-table .col-phone {
+  min-width: 399px;
+  width: 399px;
+}
+.candidate-table .col-source {
+  min-width: 285px;
+  width: 285px;
+}
+.candidate-table .col-name {
+  min-width: 257px;
+  width: 257px;
+}
+.candidate-table .col-email {
+  min-width: 217px;
+  width: 217px;
+}
+.candidate-table .col-campaign {
+  min-width: 220px;
+  width: 220px;
+}
+.candidate-table .col-position {
+  min-width: 200px;
+  width: 200px;
+}
+.candidate-table .col-recruitment {
+  min-width: 150px;
+  width: 150px;
+}
+.candidate-table .col-round {
+  min-width: 180px;
+  width: 180px;
+}
+.candidate-table .col-rating {
+  min-width: 120px;
+  width: 120px;
+}
+.candidate-table .col-applied-date {
+  min-width: 150px;
+  width: 150px;
+}
+.candidate-table .col-degree {
+  min-width: 150px;
+  width: 150px;
+}
+.candidate-table .col-school {
+  min-width: 150px;
+  width: 150px;
+}
+.candidate-table .col-major {
+  min-width: 150px;
+  width: 150px;
+}
+.candidate-table .col-recent-work {
+  min-width: 150px;
+  width: 150px;
+}
+.candidate-table .col-hr {
+  min-width: 150px;
+  width: 150px;
+}
+.candidate-table .col-unit {
+  min-width: 150px;
+  width: 150px;
+}
+.candidate-table .col-overall {
+  min-width: 285px;
+  width: 285px;
+}
+.candidate-table .col-area {
+  min-width: 200px;
+  width: 200px;
+}
+.candidate-table .col-presenter {
+  min-width: 150px;
+  width: 150px;
+}
+.candidate-table .col-info {
+  min-width: 250px;
+  width: 250px;
+}
+.candidate-table .col-potential {
+  min-width: 264px;
+  width: 264px;
+}
+
+.candidate-table .col-action {
+  position: sticky;
+  right: 0;
+  background-color: #fff;
+  min-width: 60px;
+  width: 60px;
+}
+.candidate-table tbody tr:hover .icon-action-change {
+  display: block;
+}
+
+.candidate-table tbody tr:hover td {
+  background: #e1eeff;
+}
+
+.candidate-table .col-check {
+  width: 50px;
+  min-width: 48px;
+  text-align: center;
+  position: sticky;
+  left: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.candidate-table tr:has(.col-check input:checked) td {
+  background: #e1eeff;
+}
+.candidate-table input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+thead th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 2;
+}
+/* Ensure the top-left header cell stays on top of everything */
+.candidate-table thead th.col-check {
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  background-color: #f5f5f5;
+}
+.row-highlight {
+  background: #fdeaea;
+}
+.name-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+.avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+.avatar-pink {
+  background: #ec4899;
+}
+.avatar-yellow {
+  background: #eab308;
+  color: #1e293b;
+}
+.avatar-blue {
+  background: #2563eb;
+}
+.avatar-teal {
+  background: #0ea5e9;
+}
+.avatar-rose {
+  background: #f43f5e;
+}
+.name-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.full-name {
+  font-weight: 400;
+  color: #0f172a;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 400;
+  width: fit-content;
+}
+.tag-success {
+  background: transparent;
+  color: #10b981; /* Green color */
+  padding: 0;
+  gap: 4px;
+  font-weight: 400;
+}
+
+.tag-warning {
+  background: #fef3c7;
+  color: #d97706;
+}
+.tag-neutral {
+  background: #eef2f7;
+  color: #6b7280;
+}
+
+/* Duplicate row highlight */
+.duplicate-row {
+  background-color: #fdeaea;
+}
+.duplicate-row .col-action,
+.duplicate-row .col-check {
+  background-color: #fdeaea;
+}

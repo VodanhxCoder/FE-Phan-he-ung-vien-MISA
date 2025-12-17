@@ -1,0 +1,25 @@
+/* ===== Input ===== */
+.dx-input {
+  width: 100%;
+  height: 36px;
+  padding: 8px 36px 8px 12px; /* chừa chỗ cho icon */
+  border: 1px solid #d0d5dd; /* viền xám nhạt giống DevExpress */
+  border-radius: 6px; /* bo góc chuẩn */
+  font-size: 14px;
+  background-color: white;
+  transition: all 0.15s ease;
+  outline: none;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Hover giống DX */
+.dx-input:hover {
+  border-color: #a6b0b9;
+}
+
+/* Focus giống DX */
+.dx-input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.25);
+}

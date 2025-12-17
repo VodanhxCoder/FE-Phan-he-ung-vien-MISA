@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "add_css",
+			"type": "shell",
+			"command": "echo \"Adding CSS for validation\"",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}

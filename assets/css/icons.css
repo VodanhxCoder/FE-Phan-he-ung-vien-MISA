@@ -1,0 +1,388 @@
+/* default icon */
+.icon {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  mask-image: url(/assets/icons/ICON.svg);
+  mask-repeat: no-repeat;
+  background-color: #c5ccd5;
+}
+
+.icon-defautlt {
+  mask-image: url("imgs/ICON.svg") no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+/* navbar icon */
+.navbar-icon {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  background-color: aliceblue;
+}
+
+/* Icon Switch App */
+.icon-switch-app {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  mask-image: url(/assets/icons/navbar/icon-swich-app-white.248ca01677e3e31a.svg);
+}
+
+/* Logo Recruitment */
+.logo-recruitment {
+  background-image: url(/assets/icons/navbar/logo-recruitment-new.d56a0096f9a2229b.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  width: 32px;
+  height: 32px;
+  margin-top: 8px;
+}
+/* Icon Search */
+.dx-icon-search {
+  mask-position: -283px -945px;
+  width: 14px;
+  height: 14px;
+  color: #9e9e9e;
+  position: absolute;
+  left: 10px;
+  right: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Icon Right Nav */
+.btn-secondary-2 .ic-svg {
+  background-color: #7a8188 !important;
+}
+
+.icon-global {
+  margin-top: 3px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  width: 21px;
+  height: 21px;
+  min-width: 20px;
+  mask-image: url(/assets/icons/ICON.svg);
+  mask-repeat: no-repeat;
+  mask-position: 0 -608px;
+  background-color: #7a8188;
+}
+.notification-icon-container .icon-notification-version {
+  background: url(/assets/icons/navbar/icon-notification-version.d5e3dc604036ed5b.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+}
+
+.aln-cs-store-icon {
+  height: 20px;
+  aspect-ratio: 1 / 1;
+  background: url(/assets/icons/navbar/cs-icon-store.svg) no-repeat center;
+  background-size: 20px 20px;
+  cursor: pointer;
+}
+
+.apui-user-controlpanel-item {
+  background: url(/assets/icons/navbar/apui-user-controlpanel-item.svg);
+  width: 32px;
+  height: 32px;
+  margin-top: 0 !important;
+  border-radius: 16px;
+  background-position: center;
+  background-size: 24px;
+  background-repeat: no-repeat;
+  overflow: unset;
+  cursor: pointer;
+}
+
+.icon-message {
+  background: url(/assets/icons/navbar/messenger.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+
+  width: 32px;
+  height: 32px;
+}
+.icon-ring {
+  background: url(/assets/icons/navbar/ring.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+
+  width: 32px;
+  height: 32px;
+}
+.icon-notification {
+  background: url(/assets/icons/navbar/notifi.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+
+  width: 32px;
+  height: 32px;
+}
+
+.icon-more-menu {
+  background: url(/assets/icons/navbar/icon-moremenu.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+
+  width: 32px;
+  height: 32px;
+}
+.icon-knowledge {
+  background: url(/assets/icons/navbar/icon-knowledgeMenu.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+
+  width: 32px;
+  height: 32px;
+}
+.img-user-avata {
+  width: 100%;
+  height: 100%;
+  max-width: 32px;
+  max-height: 32px;
+  border-radius: 50%;
+}
+
+/* Icon Sidebar */
+.icon-sb-recruiment {
+  mask-position: -94px -113px;
+  background-color: #c5ccd5;
+}
+
+.icon-sb-candidate-active {
+  mask-position: -24px -112px;
+  background-color: #c5ccd5;
+}
+
+.icon-sb-calendar {
+  mask-position: -144px -113px;
+  background-color: #c5ccd5;
+}
+
+.icon-sb-talent-pools {
+  mask-position: 0px -112px;
+  background-color: #c5ccd5;
+}
+
+.icon-sb-recruitment-campaign-active {
+  mask-position: -73px -633px;
+  background-color: #c5ccd5;
+}
+
+.icon-sb-task {
+  mask-position: -336px -113px;
+  background-color: #c5ccd5;
+}
+
+.icon-email-ai-marketing {
+  mask-position: -160px -248px;
+  background-color: #c5ccd5;
+}
+
+.icon-chat-box {
+  mask-position: -72px -845px;
+  background-color: #c5ccd5;
+}
+
+.icon-sb-report {
+  mask-position: -72px -113px;
+  background-color: #c5ccd5;
+}
+
+.icon-sb-setting {
+  mask-position: 0px -136px;
+  background-color: #c5ccd5;
+}
+/* Icon Left */
+.icon-left {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  mask-position: -60px -696px;
+  mask-repeat: no-repeat;
+  background-color: #ffffff;
+  margin: unset;
+}
+/* Icon Trong toolbar */
+.wrap-icon-button-toolbar {
+  background-color: #ffffff;
+  height: 35px;
+  padding: 8px;
+  border: 1px solid #e0e6ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+  width: 36.7px;
+}
+.wrap-icon-button-toolbar:hover {
+  border-color: #2680eb;
+  background-color: #e2efff;
+}
+/* Icon Add */
+.icon-add {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  margin-top: -2px;
+  background-color: #ffffff;
+  mask-position: -20px -656px;
+  mask-repeat: no-repeat;
+  margin-bottom: 2px;
+}
+
+.icon-dropdown {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  mask-position: -32px -48px;
+  mask-repeat: no-repeat;
+  background: #ffffff;
+}
+
+.icon-ai-search {
+  width: 24px;
+  height: 24px;
+  background-image: url(/assets/icons/main-content/ai-search-candidate.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  animation: spinFFF 20s infinite;
+}
+.icon-ai-search-after::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/assets/icons/main-content/ai-search-candidate-start.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  animation: inspinFFF 20s infinite;
+}
+
+/* .icon-filter {
+  background: url("/assets/icons/ICON.svg") no-repeat -42px -658px;
+  width: 16px;
+  height: 16px;
+} */
+
+.icon-filter {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  mask-position: -40px -656px;
+  background-color: #7a8188;
+}
+
+.icon-export {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  mask-position: -60px -656px;
+  background-color: #7a8188;
+}
+
+.icon-interactive-history {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  mask-position: 0 -844px;
+  background-color: #7a8188;
+}
+
+.icon-setting-column {
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  mask-position: -24px -608px;
+  background-color: #7a8188;
+}
+/* Icon Right Toolbar Selected */
+.icon-more-toolbar {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  mask-position: -96px -80px;
+  background-color: #7a8188;
+}
+.icon-delete-red {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  mask-position: -220px -656px;
+  background-color: #ff0000;
+}
+/* Icon Check trong table */
+.icon-check-green {
+  width: 12px;
+  height: 12px;
+  background-color: #10b981;
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+}
+/* Icon chỉnh sửa trong table */
+.icon-action-change {
+  display: none;
+  mask-position: -182px -658px;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  mask-repeat: no-repeat;
+  background-color: #7a8188;
+}
+
+/* Icon bottom table */
+.icon-left-arrow {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  mask-position: -60px -696px;
+  margin-left: 16px;
+}
+.icon-right-arrow {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  mask-position: -40px -696px;
+}
+
+/* Icon trong popup */
+.icon-close {
+  mask-position: -73px -136px;
+  height: 22px;
+  width: 22px;
+  min-width: 22px;
+  background-color: #7a8188;
+}
+.fa-calendar {
+}
+@keyframes spinFFF {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
